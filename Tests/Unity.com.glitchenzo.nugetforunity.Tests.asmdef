@@ -1,0 +1,18 @@
+{
+    "name": "Unity.glitchenzo.nugetforunity.Tests",
+    "references": [
+        "GUID:8e4fab6349967de418c1f0c66f8009d3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "DotNetZip.dll",
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

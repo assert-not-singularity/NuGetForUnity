@@ -5,7 +5,7 @@ You can learn more about NuGet here: [nuget.org](https://www.nuget.org/)
 
 NuGetForUnity provides a visual editor window to see available packages on the server, see installed packages, and see available package updates.  A visual interface is also provided to create and edit *.nuspec* files in order to define and publish your own NuGet packages from within Unity.
 
-![](screenshots/online.png?raw=true)
+![](Documentation~/screenshots/online.png?raw=true)
 
 # How do I install NuGetForUnity?
 Install the provided Unity package into your Unity project.  Located [here](https://github.com/GlitchEnzo/NuGetForUnity/releases).
@@ -13,11 +13,11 @@ Install the provided Unity package into your Unity project.  Located [here](http
 # How do I use NuGetForUnity?
 To launch, select **NuGet → Manage NuGet Packages**
 
-![](screenshots/menu_item.png?raw=true)
+![](Documentation~/screenshots/menu_item.png?raw=true)
 
 After several seconds (it can take some time to query the server for packages), you should see a window like this:
 
-![](screenshots/online.png?raw=true)
+![](Documentation~/screenshots/online.png?raw=true)
 
 The **Online** tab shows the packages available on the NuGet server.
 
@@ -40,13 +40,13 @@ Note: If the package is already installed an **Uninstall** button will be displa
 
 The **Installed** tabs shows the packages already installed in the current Unity project.
 
-![](screenshots/installed.png?raw=true)
+![](Documentation~/screenshots/installed.png?raw=true)
 
 Click the **Uninstall** button to uninstall the package.
 
 The **Updates** tab shows the packages currently installed that have updates available on the server.
 
-![](screenshots/updates.png?raw=true)
+![](Documentation~/screenshots/updates.png?raw=true)
 
 The version in brackets on the left is the new version number.  The version in brackets in the **Update** button is the currently installed version.
 
@@ -76,13 +76,13 @@ You can change this to any other NuGet server (such as NuGet.Server or ProGet - 
 
 See more information about *NuGet.config* files here: [https://docs.nuget.org/consume/nuget-config-settings](https://docs.nuget.org/consume/nuget-config-settings)
 
-![](screenshots/menu_item.png?raw=true)
+![](Documentation~/screenshots/menu_item.png?raw=true)
 
 NuGetForUnity installs packages into the local repository path defined in the *NuGet.config* file (`repositoryPath`).  By default, this is set to the `Assets/Packages` folder.  In the *NuGet.config* file, this can either be a full path, or it can be a relative path based on the project's Assets folder.  Note:  You'll probably want your Packages folder to be ignored by your version control software to prevent NuGet packages from being versioned in your repository.
 
 When a package is installed, the *packages.config* file in the project is automatically updated with the specific package information, as well as all of the dependencies that are also installed.  This allows for the packages to be restored from scratch at any point.  The `Restore` operation is automatically run every time the project is opened or the code is recompiled in the project.  It can be run manually by selecting the **NuGet → Restore Packages** menu item. 
 
-![](screenshots/menu_item.png?raw=true)
+![](Documentation~/screenshots/menu_item.png?raw=true)
 
 Note: Depending on the size and number of packages you need to install, the `Restore` operation could take a _long_ time, so please be patient. If it appears the Unity isn't launching or responding, wait a few more minutes before attempting to kill the process.
 
@@ -93,11 +93,11 @@ The *.nupkg* files downloaded from the NuGet server are cached locally in the cu
 # How do I create my own NuGet packages from within Unity?
 First, you'll need to create a *.nuspec* file that defines your package.  In your Project window, right click where you want the *.nuspec* file to go and select **NuGet → Create Nuspec File**.
 
-![](screenshots/nuspec_menu.png?raw=true)
+![](Documentation~/screenshots/nuspec_menu.png?raw=true)
 
 Select the new *.nuspec* file and you should see something like this:
 
-![](screenshots/nuspec_editor.png?raw=true)
+![](Documentation~/screenshots/nuspec_editor.png?raw=true)
 
 Input the appropriate information for your package (ID, Version, Author, Description, etc).  Be sure to include whatever dependencies are required by your package.
 

@@ -1,4 +1,8 @@
-﻿namespace NugetForUnity
+﻿using System.Runtime.CompilerServices;
+
+[assembly: InternalsVisibleTo("Unity.glitchenzo.nugetforunity.Tests")]
+
+namespace NugetForUnity
 {
     using Ionic.Zip;
     using System;

@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DotNetZip">
-      <HintPath>..\Assets\NuGet\Editor\DotNetZip.dll</HintPath>
+      <HintPath>..\Editor\DotNetZip.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,49 +47,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Assets\NuGet\Editor\DependencyTreeViewer.cs">
+    <Compile Include="..\Editor\DependencyTreeViewer.cs">
       <Link>DependencyTreeViewer.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NugetConfigFile.cs">
+    <Compile Include="..\Editor\NugetConfigFile.cs">
       <Link>NugetConfigFile.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NugetFrameworkGroup.cs">
+    <Compile Include="..\Editor\NugetFrameworkGroup.cs">
       <Link>NugetFrameworkGroup.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NugetHelper.cs">
+    <Compile Include="..\Editor\NugetHelper.cs">
       <Link>NugetHelper.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NugetODataResponse.cs">
+    <Compile Include="..\Editor\NugetODataResponse.cs">
       <Link>NugetODataResponse.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NugetPackage.cs">
+    <Compile Include="..\Editor\NugetPackage.cs">
       <Link>NugetPackage.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NugetPackageIdentifier.cs">
+    <Compile Include="..\Editor\NugetPackageIdentifier.cs">
       <Link>NugetPackageIdentifier.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NugetPackageSource.cs">
+    <Compile Include="..\Editor\NugetPackageSource.cs">
       <Link>NugetPackageSource.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NugetPreferences.cs">
+    <Compile Include="..\Editor\NugetPreferences.cs">
       <Link>NugetPreferences.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NugetWindow.cs">
+    <Compile Include="..\Editor\NugetWindow.cs">
       <Link>NugetWindow.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NuspecContentFile.cs">
+    <Compile Include="..\Editor\NuspecContentFile.cs">
       <Link>NuspecContentFile.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NuspecEditor.cs">
+    <Compile Include="..\Editor\NuspecEditor.cs">
       <Link>NuspecEditor.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\NuspecFile.cs">
+    <Compile Include="..\Editor\NuspecFile.cs">
       <Link>NuspecFile.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\PackagesConfigFile.cs">
+    <Compile Include="..\Editor\PackagesConfigFile.cs">
       <Link>PackagesConfigFile.cs</Link>
     </Compile>
-    <Compile Include="..\Assets\NuGet\Editor\RepositoryType.cs">
+    <Compile Include="..\Editor\RepositoryType.cs">
       <Link>RepositoryType.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
